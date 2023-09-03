@@ -7,9 +7,10 @@
 }
 .clock-border{
     width:400px;
-    height:400px;
+    height:443px;
     border-radius:50%;
-    border: 15px solid black;
+    border: 11px solid #2D003C;
+    /* 293438 */
     position: relative;
     background: url("./clock.png");
     background-size: contain;
@@ -19,11 +20,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 65px;
+    margin-top: 80px;
 }
 .hour-needle{
     width:5px;
-    height:80px;
+    height:77px;
     left:50%;
     bottom:50%;
     background-color: orange;
@@ -34,7 +35,7 @@
 }
 .min-needle{
     width:5px;
-    height:120px;
+    height:115px;
     left:50%;
     bottom:50%;
     background-color: blue;
@@ -45,7 +46,7 @@
 }
 .sec-needle{
     width:5px;
-    height:140px;
+    height:155px;
     left:50%;
     bottom:50%;
     background-color: red;
